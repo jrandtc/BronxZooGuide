@@ -540,8 +540,8 @@
             </animal>
             <animal id="11">
                 <zooname>De Brazza's Monkey</zooname>
-                <binomialnomenclature>Cercopithecus neglectus</binomialnomenclature>
-                <family>Cercopithecidae</family>
+                <binomialnomenclature>Cercopithecidae</binomialnomenclature>
+                <family>Cercopithecus neglectus</family>
                 <class>Mammalia</class>
                 <IUCNConservationStatus>Least Concern</IUCNConservationStatus>
                 <naturallocation>
@@ -742,7 +742,7 @@
                 <zooname>Kenya Crested Guineafowl</zooname>
                 <binomialnomenclature>Guttera pucherani</binomialnomenclature>
                 <family>Numididae</family>
-                <class>Aves</class>
+                <class>Aves</class>Guttera pucherani
                 <IUCNConservationStatus>Least Concern</IUCNConservationStatus>
                 <naturallocation>
                     open forest, woodland and forest-savanna mosaics in Sub-Saharan Africa
@@ -1195,7 +1195,7 @@
             <animal id="24">
                 <zooname>Mountain Peacock Pheasant</zooname>
                 <binomialnomenclature>Polyplectron Inopinatum</binomialnomenclature>
-                <family>Phasianidae</family>
+                <family>Polyplectron Inopinatum</family>
                 <class>Aves</class>
                 <IUCNConservationStatus>Vulnerable</IUCNConservationStatus>
                 <naturallocation>
@@ -1798,8 +1798,8 @@
             </animal>
             <animal id="36">
                 <zooname>Common Musk Turtle</zooname>
-                <binomialnomenclature>Sternotherus odoratus</binomialnomenclature>
-                <family>Kinosternidae</family>
+                <binomialnomenclature>Kinosternidae</binomialnomenclature>
+                <family>Sternotherus odoratus</family>
                 <class>Reptilia</class>
                 <IUCNConservationStatus>Least Concern</IUCNConservationStatus>
                 <naturallocation>
@@ -2861,7 +2861,7 @@
                 </photocredit>
                 <parentstructure>0</parentstructure>
             </animal>
-            <animal id="57">
+			<animal>
                 <zooname>White-naped crane</zooname>
                 <binomialnomenclature>Grus vipio</binomialnomenclature>
                 <family>Gruidae</family>
@@ -4219,8 +4219,8 @@
             </animal>
             <animal id="84">
                 <zooname>Wolf's Monkey</zooname>
-                <binomialnomenclature>Cercopithecus wolfi</binomialnomenclature>
-                <family>Cercopithecidae</family>
+                <binomialnomenclature>Cercopithecidae</binomialnomenclature>
+                <family>Cercopithecus wolfi</family>
                 <class>Mammalia</class>
                 <IUCNConservationStatus>Near threatened</IUCNConservationStatus>
                 <naturallocation>
@@ -4722,8 +4722,8 @@
             </animal>
             <animal id="94">
                 <zooname>Zebra Finch</zooname>
-                <binomialnomenclature>Taeniopygia guttata</binomialnomenclature>
-                <family>Estrildidae</family>
+                <binomialnomenclature>Estrildidae</binomialnomenclature>
+                <family>Taeniopygia guttata</family>
                 <class>Aves</class>
                 <IUCNConservationStatus>Least Concern</IUCNConservationStatus>
                 <naturallocation>

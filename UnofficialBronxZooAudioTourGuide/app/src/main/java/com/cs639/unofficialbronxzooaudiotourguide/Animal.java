@@ -21,6 +21,7 @@ public class Animal {
     private String binomialNomenclature;
     private String eolLink;
     private String wikiLink;
+    private String redlistLink;
     private ArrayList<String> otherResourceLinks;
     private ArrayList<String> otherResourceNames;
     private ArrayList<String> commonNames;
@@ -66,6 +67,8 @@ public class Animal {
 
     public void setFamily(String family) {
         this.family = family;
+        Log.e("animalfamily", "family is set as " + family);
+
     }
 
     public String getAnimalClass() {
@@ -227,5 +230,13 @@ public class Animal {
 
     public void setChecked(boolean checked) {
         isChecked = checked;
+    }
+
+    public String getRedlistLink() {
+        return redlistLink;
+    }
+
+    public void setRedlistLink(String redlistLink) {
+        this.redlistLink = redlistLink;
     }
 }

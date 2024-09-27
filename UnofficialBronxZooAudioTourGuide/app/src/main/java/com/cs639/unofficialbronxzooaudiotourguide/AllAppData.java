@@ -107,7 +107,9 @@ public class AllAppData extends ViewModel {
     }
 
     public void compassViewClicked(int numberClicked){
-            currentlySelectedAnimal = animals.get(numberClicked);
+            if(numberClicked < animals.size()) {
+                currentlySelectedAnimal = animals.get(numberClicked);
+            }
             compassList.listClickedOn(numberClicked);
     }
 

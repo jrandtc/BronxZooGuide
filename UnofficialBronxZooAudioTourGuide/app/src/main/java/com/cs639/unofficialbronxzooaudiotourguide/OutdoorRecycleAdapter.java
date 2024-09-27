@@ -63,7 +63,6 @@ public class OutdoorRecycleAdapter extends RecyclerView.Adapter<OutdoorRecycleAd
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.outside_animal_row, parent, false);
         rowView = view;
-
         return new MyViewHolder(view);
     }
 

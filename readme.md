@@ -1,10 +1,10 @@
-# Unofficial Bronx Zoo Audio Tour
+#  Bronx Zoo Guide: An Unofficial Tour
 
 Many museums have cheap digital audio tours where you use an app or device where you enter numbers at stations to listen to more info about what you’re looking at. In NYC the Met (https://www.metmuseum.org/visit/audio-guide) and MoMA have great ones; also in France there are bunch of great ones in the Loire Valley.
 
 The Bronx Zoo doesn’t have an audio tour or anything like it (closest thing is founder William Temple Hornaday’s 1899 Guide to the New York Zoological Park; read here  https://babel.hathitrust.org/cgi/pt?id=uc1.c045667025 ). We’d like our audio guide to include both historical information about the park (which is weirdly hard to find except in primary sources like newspaper archives and Hornaday’s book; possibly because of scandals in its history – they did lots of things that wouldn’t be okay by today’s standards although they were progressive at the time) and information about the animals taken from the Encyclopedia of Life (eol.org) and Wikipedia (their information isn’t always reliable but it’s not copyrighted and worth using as long as you double check)
 
-![Screenshot 2](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/drawing2.jpg) ![Screenshot 1](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/drawing1.jpg)
+![Screenshot 2](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/drawing2.jpg) ![Screenshot 1](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/drawing1.jpg)
 
 Screenshot 1                                                  Screenshot 2
 ## App Flow ##
@@ -44,29 +44,29 @@ There are no existent audio guides for the Bronx Zoo. Naturally, there are count
 
 Although not a "Audio Tour Guide" app, the Bronx zoo does have a mobile website which gives users some logistical information about the park, and the location of a few animals.
 
-![Screenshot 1](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/bz1.png)
-![Screenshot 2](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/bz2.png) 
+![Screenshot 1](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/bz1.png)
+![Screenshot 2](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/bz2.png) 
 
-![Screenshot 1](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/bz3.png)
-![Screenshot 2](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/bz4.png)
+![Screenshot 1](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/bz3.png)
+![Screenshot 2](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/bz4.png)
 
 Although the logistical information the Bronx Zoo mobile website gives is helpful, it has no information about the animals.
 
 The MET and MoMA also have mobile websites instead of mobile apps, but they actually do provide audio tours. The MET does it in an extremely basic way, hosting a playlist off of Soundcloud for each of their exhibits. Users have to follow the tour in order of the playlist, and its quite tricky to navigate.
 
-![The met](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/met1.png)
+![The met](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/met1.png)
 
 MoMA gives visiters more flexability than the MET, by using a system where users can enter numbers online to listen to audio information. This makes it so users to can enjoy the exhibits out of order. It also makes the tour easier to find. 
 
-![Screenshot 1](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/moma1.png)
-![Screenshot 2](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/moma2.png) 
+![Screenshot 1](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/moma1.png)
+![Screenshot 2](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/moma2.png) 
 
 Rick Steves, a famous tour guide, has a audio tour for Europe which is offered as an android app.  Pictures are below:
 
-![Screenshot 1](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/1.png)
-![Screenshot 2](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/0.png)
+![Screenshot 1](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/1.png)
+![Screenshot 2](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/0.png)
 
-![Screenshot 3](https://github.com/jrandtc/UnofficialBronxZooAudioTour/blob/master/images/planning/2.png) 
+![Screenshot 3](https://raw.githubusercontent.com/tc10815/BronxZooGuide/master/images/planning/2.png) 
 
 Rick Steves' tours are an Android app and offer downloading the audio to your phone before leaving. This is  hugely helpful for Americans in Europe, who typically won't have 4G on their phones. The content is absolutely top notch, but the implementation of the tour is very basic. There are no interactive maps or GPS features at all, so it's essentially just an MP3 player that allows you to preload playlists with tours. 
 
@@ -75,7 +75,7 @@ Our app would offer a smarter interface than any of these three apps. By using G
 ## 5.	What technologies, APIs etc will you be using to develop this solution? Provide links and explanations.
 - Animal data will be stored locally and included in APK as an XML file
 - Images and audio files will be included in APK, although highly compressed
-- Some kind of tracking (probably Google Analytics)
-- A Map API of some kind (for compasses and/or map)
+- Google Analytics
+- Locations and electromagetic sensors
 - Sound Playing API...
 - Intents will be used to launch web browsers for sources and email if users want to submit information

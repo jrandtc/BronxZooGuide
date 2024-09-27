@@ -255,6 +255,7 @@ public class CompassListFragment extends Fragment  implements SensorEventListene
         originalAnimalContainers= userModel.getAnimalContainerStructures();
         originalAnimals = userModel.getAnimals();
         originalStructures = userModel.getStructures();
+        Log.i("debugdebug", "This is how many animals are " + originalAnimals.size());
         String[][] toSend = buildItemList(userModel.getAnimals(), userModel.getStructures(),
                 userModel.getAnimalContainerStructures());
         s1 = toSend[0];
@@ -425,7 +426,8 @@ public class CompassListFragment extends Fragment  implements SensorEventListene
         if(isAnimalContainingStructure) {
             Intent intent = new Intent(rootView.getContext(), AnimalBuildingActivity.class);
             setAnimalContainerCheck(checkboxId);
-            intent.putExtra("parentstructure", idOfItem);
+            Log.i("debugdebug", "name of item clicked is: " + nameOfItemClicked + "; id is: " + idOfItem);
+            intent.putExtra("parentstructure", (idOfItem));
             intent.putExtra("filter", filter);
             startActivity(intent);
         }

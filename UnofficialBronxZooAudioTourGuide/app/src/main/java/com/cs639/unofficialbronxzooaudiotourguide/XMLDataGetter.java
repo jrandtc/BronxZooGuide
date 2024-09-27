@@ -133,6 +133,8 @@ public class XMLDataGetter {
                             myAnimal.setEolLink(url);
                         } else if (nameURL.equals("wikipedia")) {
                             myAnimal.setWikiLink(url);
+                        } else if (nameURL.equals("IUCN Red List")){
+                            myAnimal.setRedlistLink(url);
                         } else {
                             urlArray.add(url);
                             urlNameArray.add(nameURL);
